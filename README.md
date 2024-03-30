@@ -1,1 +1,1 @@
-# -Glove-Based-Pointing-Device-MPU6050
+# Glove-Based-Pointing-Device-MPU6050
