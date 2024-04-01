@@ -141,6 +141,11 @@ void setup() {
 float sensitivity = 0.5;
 float threshold = 8.0;
 
+float linearFunction(float x) {
+    if (x == 0) P\{return 0;}
+    return 0.75*x + 0.25;
+}
+
 void moveMouse(float x, float y) {
     if (x < threshold && x > - threshold) {x = 0;}
     else if (x > threshold) {x = x - threshold;}
@@ -148,7 +153,6 @@ void moveMouse(float x, float y) {
     if (y < threshold && y > - threshold) {y = 0;}
     else if (y > threshold / 2) {y = y - threshold / 2;}
     else if (y < -threshold / 2){y = y + threshold / 2;}
-    
     float converted = 0.75*sensitivity + 0.25;
     Mouse.move(x * converted, y * converted);
 }
