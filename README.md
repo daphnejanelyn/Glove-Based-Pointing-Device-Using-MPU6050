@@ -8,12 +8,12 @@ The firmware is implemented in Arduino that uses processed motion input from the
 
 ### Guidelines when Running the Program
 1. Open gyro_mouse folder using the Arduino IDE.
-2. Import mouse library using the built in library manager. 
+2. Import the mouse library using the built-in library manager. 
 3. Upload to Arduino.
 *Note: Ensure that the correct COM port and board are selected.*
 
 ### Hardware Used
-To build the prototype, hardware components include an Arduino Pro Micro, an MPU-6050 sensor, tact switches, breadboards, and male-to-male cables. All components are attached to the microprocessor as shown in the circuit schematic diagram below.
+To build the prototype, hardware components include an Arduino Pro Micro, an MPU-6050 sensor, breadboards, and male-to-male cables. All components are attached to the microprocessor as shown in the circuit schematic diagram below.
 [![Circuit-Schematic.png](https://i.postimg.cc/QMVwpGgc/Circuit-Schematic.png)](https://postimg.cc/06RVs4BN)
 
 ### Testing Interface
