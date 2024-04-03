@@ -1,7 +1,7 @@
 # Glove-Based Pointing Device Using MPU6050 (Accelerometer and Gyroscope-based Sensor)
 
 #### Device Overview
-The proposed device is a microcontroller-based prototype, leveraging a sensor as its input device. Affixed to a glove, it relies on hand movements as its main source of input. This also allows the presenter to have free use of both of their hands for props or other actions during presentations. 
+The proposed device is a microcontroller-based prototype, leveraging a sensor as its input device. Affixed to a glove, it relies on hand movements as its main source of input. This also allows the presenter to have free use of both of their hands for props or other actions during presentations. Attached is the [link](https://drive.google.com/file/d/1l2kTV054JVqjq5POpGmrDK0Weq7EVZKx/view?usp=sharing) to a demonstration of the working prototype.
 ### Firmware
 The firmware is implemented in Arduino that uses processed motion input from the MPU6050 sensor to control the mouse cursor on a connected device. The Inter-Integrated Circuit (I2C) Device Library is the main library used for this implementation. It is a library that simplifies communication between devices that use the I2C protocol, a serial communication and bus interface connection protocol to connect multiple devices through a shared bus. This is referenced from [I2C Dev Library](https://github.com/jrowberg) of Jeff Rowberg. Two versions of the prototype device were proposed, one using a 0.5 sensitivity factor with a 16 X-threshold and an 8 Y-threshold value, and the other using a 0.625 sensitivity with an 8 X-threshold and a 4 Y-threshold
 
